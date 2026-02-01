@@ -17,6 +17,10 @@ import {
   Phone,
 } from "lucide-react";
 import { supabase } from "./config/supabase";
+import {
+  requestNotificationToken,
+  isMessagingSupported,
+} from "./config/firebase";
 
 // Disable Firebase for now - notifications won't work but app will function
 const messaging = null;

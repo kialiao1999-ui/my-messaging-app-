@@ -27,3 +27,6 @@ yarn-error.log*
 
 # environment variables
 .env
+.env.local
+node_modules/
+build/
